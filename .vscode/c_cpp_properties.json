@@ -1,18 +1,16 @@
 {
     "configurations": [
         {
-            "name": "Win32",
+            "name": "UERANSIM (Linux source, browse only)",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/UERANSIM/**"
             ],
             "defines": [
-                "_DEBUG",
-                "UNICODE",
-                "_UNICODE"
+                "_DEBUG"
             ],
-            "compilerPath": "D:\\mingw64\\bin\\gcc.exe",
+            "compilerPath": "D:\\mingw64\\bin\\g++.exe",
             "cStandard": "gnu17",
-            "cppStandard": "gnu++14",
+            "cppStandard": "gnu++17",
             "intelliSenseMode": "windows-gcc-x64"
         }
     ],
